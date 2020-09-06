@@ -99,3 +99,35 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_OZIP_DECRYPT_KEY := "ACAC1E13A72531AE4A1B22BB31C1CC22"
+
+#SHRP Device Specific Properties
+
+# Path of your SHRP Tree
+SHRP_PATH := device/oppo/RMX1821
+
+# Maintainer name *
+SHRP_MAINTAINER := EYAD
+
+#Official
+SHRP_OFFICIAL=false
+
+# Device codename *
+SHRP_DEVICE_CODE := RMX1821
+
+# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+SHRP_REC_TYPE := Treble
+
+# Recovery Type (It can be A/B or A_only) [Only for About Section] *
+SHRP_DEVICE_TYPE := A/B
+
+SHRP_STATUSBAR_RIGHT_PADDING := 28 SHRP_STATUSBAR_LEFT_PADDING := 28
+SHRP_EXPRESS := true
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+SHRP_NOTCH := true
+SHRP_AB := true
